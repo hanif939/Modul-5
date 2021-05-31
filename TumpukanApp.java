@@ -7,14 +7,17 @@ public class TumpukanApp {
         tumpukan.baca();
         tumpukan.push(100);
         tumpukan.baca();
-        long nilai1=tumpukan.pop();
-        System.out.println("nilai1 = "+nilai1);
-        System.out.println(" ");
+        tumpukan.pop();
+        tumpukan.baca();
         tumpukan.push(60);
         tumpukan.baca();
         tumpukan.push(80);
         tumpukan.baca();
-        System.out.println("nilai1 = "+nilai1);
+        tumpukan.pop();
+        tumpukan.baca();
+        long top = tumpukan.peek();
+        System.out.println("nilai2 = "+ top);
         System.out.println(" ");
+        
     }
 }
